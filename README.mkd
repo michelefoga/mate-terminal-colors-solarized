@@ -35,21 +35,22 @@ and colorscheme versions for Vim, Mutt, popular terminal emulators and other
 applications.
 
 For the original works of Ethan Schoonover, visit the [Solarized repository].
-The colors for Mate Terminal is maintained in [Mate Terminal Colors Solarized
-repository].
+For the original scripts of Sigurd Gartmann <sigurdga@sigurdga.no> and Paul
+Thomson <captbunzo@gmail.com>, visit the [Gnome Terminal Colors Solarized repository].
 
 Installation and usage
 ----------------------
 
-Clone the [git repository], then run one of the scripts: set_light.sh or
-set_dark.sh.
+Clone the [git repository]
 
     $ git clone git://github.com/sigurdga/mate-terminal-colors-solarized.git
 
-Then for the light theme run this on yout terminal:
+Then, for the light theme run this on your terminal:
+
     $ mate-terminal-colors-solarized/set_light.sh
 
-Or for the dark script run this on yout terminal:
+Or, for the dark theme run this on your terminal:
+
     $ mate-terminal-colors-solarized/set_dark.sh
 
 Make sure you are creating a new profile if you do not want to lose your
