@@ -1,4 +1,4 @@
-BSolarized Colorscheme for Mate Terminal
+Solarized Colorscheme for Mate Terminal
 ========================================
 
 Scripts for setting the Solarized color set with Mate Terminal. Based on the scripts by
@@ -45,11 +45,11 @@ Clone the [git repository]
 
     $ git clone git://github.com/sigurdga/mate-terminal-colors-solarized.git
 
-Then, for the light theme:
+Then, for the light theme
 
     $ mate-terminal-colors-solarized/set_light.sh
 
-Or, for the dark theme:
+Or, for the dark theme
 
     $ mate-terminal-colors-solarized/set_dark.sh
 
