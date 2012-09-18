@@ -5,10 +5,10 @@ Scripts for setting the Solarized color set with Gnome Terminal. Scripts by
 Sigurd Gartmann <sigurdga@sigurdga.no> and Paul Thomson <captbunzo@gmail.com>,
 based on colors by Ethan Schoonover <es@ethanschoonover.com>.
 
-Notes about color settings in Gnome Terminal
+Notes about color settings in Mate Terminal
 --------------------------------------------
 
-In Gnome terminal, you can add or edit profiles from the menu bar. However,
+In Mate terminal, you can add or edit profiles from the menu bar. However,
 this functionality is not easliy available from command line.  Here, you'll
 find a script that will set the palette colors, foreground, background and
 highlight colors to a light or dark color scheme, overwriting a color profile
@@ -18,7 +18,7 @@ There is no uninstall option as that would probably make the scripts a few
 times bigger than what they are today. However, if you are completely lost, you
 can reset all profiles to a kind of "factory default", which may be different
 from the profile that came with your distribution:
-`gconftool-2 --recursive-unset /apps/gnome-terminal`
+`matetool-2 --recursive-unset /apps/mate-terminal`
 
 Code contributions to make an uninstall option or adding new profiles through
 the script, will be highly appreciated.
@@ -35,7 +35,7 @@ and colorscheme versions for Vim, Mutt, popular terminal emulators and other
 applications.
 
 For the original works of Ethan Schoonover, visit the [Solarized repository].
-The colors for Gnome Terminal is maintained in [Gnome Terminal Colors Solarized
+The colors for Mate Terminal is maintained in [Mate Terminal Colors Solarized
 repository].
 
 Installation and usage
@@ -44,12 +44,12 @@ Installation and usage
 Clone the [git repository], then run one of the scripts: set_light.sh or
 set_dark.sh.
 
-    $ git clone git://github.com/sigurdga/gnome-terminal-colors-solarized.git
-    $ cd gnome-terminal-colors-solarized
+    $ git clone git://github.com/sigurdga/mate-terminal-colors-solarized.git
+    $ cd mate-terminal-colors-solarized
     $ ./install.sh
 
 The _install.sh_ script will guide you through some settings, asking if you
-want the light or dark color scheme, and which of your Gnome Terminal profiles
+want the light or dark color scheme, and which of your Mate Terminal profiles
 you will apply it to.
 
 Make sure you are creating a new profile if you do not want to lose your
@@ -67,3 +67,4 @@ colors.
 [Solarized homepage]:   http://ethanschoonover.com/solarized
 [Solarized repository]: https://github.com/altercation/solarized
 [Gnome Terminal Colors Solarized repository]: https://github.com/sigurdga/gnome-terminal-colors-solarized
+[Mate Terminal Colors Solarized repository]: https://github.com/sigurdga/mate-terminal-colors-solarized
