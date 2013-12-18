@@ -17,10 +17,9 @@ See the [Solarized homepage] for theory behind the colors, screenshots, details
 and colorscheme versions for Vim, Mutt, popular terminal emulators and other
 applications.
 
-For the original works of Ethan Schoonover, visit the [Solarized repository]
-and Sigurd Gartmann work from [Gnome Terminal Colors Solarized repository].
-The scripts for Mate Terminal is maintained in [Mate Terminal Colors
-Solarized repository].
+For the original works of Ethan Schoonover, visit the [Solarized repository].
+For the original scripts of Sigurd Gartmann <sigurdga@sigurdga.no> and Paul
+Thomson <captbunzo@gmail.com>, visit the [Gnome Terminal Colors Solarized repository].
 
 Installation and usage
 ----------------------
@@ -28,7 +27,7 @@ Installation and usage
 Clone the [git repository], then run `./solarize`. To change between light and
 dark background, run `./solarize` again.
 
-    $ git clone git://github.com/NeuralSandwich/mate-terminal-colors-solarized.git
+    $ git clone git://github.com/michelefoga/mate-terminal-colors-solarized.git
     $ cd mate-terminal-colors-solarized
     $ ./solarize
 
@@ -80,7 +79,7 @@ Use the 16 colors terminal option to get VIM to look like GVIM with solarized
 colors.
 
     set t_Co=16
-[Mate Terminal Colors Solarized repository]: https://github.com/NeuralSandwich/mate-terminal-colors-solarized
+
 [Solarized homepage]:   http://ethanschoonover.com/solarized
 [Solarized repository]: https://github.com/altercation/solarized
 [Gnome Terminal Colors Solarized repository]: https://github.com/sigurdga/gnome-terminal-colors-solarized
